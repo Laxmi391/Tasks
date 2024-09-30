@@ -1,0 +1,27 @@
+.container{
+  margin-top: 60px;
+}
+.btn{
+    width:100%;
+}
+.btn button{
+  width:100%;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 4px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.checked{
+  color:rgba(255,196,0);
+}
+.card{
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.card:hover{
+  color:rgb(200, 162, 235);
+  transform:translateY(5px);
+}
